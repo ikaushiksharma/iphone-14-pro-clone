@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        headline: [''],
+        main: ['poppins', 'cursive'],
       },
       colors: {
         mainColor: '',

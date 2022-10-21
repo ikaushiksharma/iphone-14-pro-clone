@@ -5,9 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
+    <title>iPhone 14 Pro and iPhone 14 Pro Max - Apple (IN)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <div class="text-5xl">Hi there</div>
+  <body class="overflow-x-hidden font-main text-white bg-black">
+    <nav
+      class="fixed w-screen z-10 flex items-center justify-between py-0 px-[20%] min-h-[6vh] bg-[#1d1d1d] opacity-90 backdrop-blur-3xl"
+    >
+      <a href="./index.html" class="text-xl font-semibold">iPhone 14 Pro</a>
+      <div class="nav-links">
+        <a class="text-sm ml-8" href="#">Overview</a>
+        <a class="text-sm ml-8" href="#">Switching to iPhone</a>
+        <a class="text-sm ml-8" href="#">Tech Specs</a>
+        <button
+          class="buy-button bg-[#3056f5] rounded-2xl ml-8 px-4 py-1 text-sm"
+        >
+          Buy
+        </button>
+      </div>
+    </nav>
+    <!-- First Page -->
+    <section
+      class="first-page min-h-screen px-[20%] py-0 flex flex-col items-center justify-center"
+    >
+      <!--add front page video-->
+      <img class="hero" src="./images/hero.jpg" alt="" />
+      <video
+        class="intro-video absolute top-10"
+        autoplay
+        src="./images/large.mp4"
+        muted
+      ></video>
+    </section>
+    <!-- second page -->
+    <section class="second-page z-2 min-h-screen flex flex-col justify-center">
+      <div class="second-text px-[30%] py-[5%] font-bold z-2 text-5xl">
+        <p class="text-container text-black">
+          A magical new way to interact with iPhone. A vital safety feature
+          designed to save lives. An innovative 48MP camera for mind-blowing
+          detail. All powered by the ultimate smartphone chip.
+        </p>
+      </div>
+    </section>
+    <!-- third page -->
+    <section class="min-h-screen"></section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+      integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
